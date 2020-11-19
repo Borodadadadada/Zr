@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    position: absolute;
+   }
+
 @font-face {
     font-family: Martyric;
     src: url(10908)
@@ -61,6 +65,31 @@ padding-right: 36px;
     padding-top: 24px;
 }
 
+.text-bio {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
+.text-track{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #FFFFFF;
+}
 .text-coop {
     font-family: Montserrat;
     font-style: normal;
@@ -137,6 +166,10 @@ margin-left: 124px;
 
 }
 
+.img-play{
+    height: 32px;
+    margin: 2px;
+}
 
 .albums-alternative{
     width: 500px;
@@ -328,3 +361,33 @@ margin-top: 72px;
     background: rgba(8, 54, 108, 0.55);
 border-radius: 50px;
 }
+
+.audio {
+    display: flex
+}
+
+.audio__container {
+    height: 36px;
+    width: 400px;
+    margin: 30px auto;
+}
+
+  .mejs__time {
+    color: #777;
+    font-weight: normal;
+  }
+  
+  .podcast {
+    background: red;
+    border-radius: 23px;
+  }
+  
+  .mejs__play {
+    background: transparent url("img/play.png") no-repeat;
+    
+  }
+  
+  .mejs__pause > button {
+    background: transparent url("https://cdn.jsdelivr.net/gh/ivorpad/images-src/mediaplayer-sprite-gray.svg") no-repeat;
+    background-position: -20px 0;
+  }
